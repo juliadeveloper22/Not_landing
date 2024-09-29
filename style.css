@@ -1,6 +1,6 @@
 body {
-    box-sizing : border-box;
-    margin: 0px
+    margin: 0px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 *, *::after, *::before {
@@ -12,12 +12,31 @@ header {
     height: 76px;
     background-color: #ffff;
     border-bottom: 1px soid #F8E0FB;
-    box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
 }
 
 header img {
     width: 151px;
     height: 40px;
-    margin: 18px auto;
+    margin-right: 32px;
+    /* margin: 18px auto; */
+}
+
+.menu__wrapper {
+    display: flex;
+}
+
+.menu__wrapper a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    margin-right: 32px;
+    white-space: nowrap;
+    opacity: 0.5;
 }
